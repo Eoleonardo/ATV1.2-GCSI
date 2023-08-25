@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css" />  <script src="script.js"></script>
+</head>
+<body>
+    <div class="p">
+        <div class="d1">
+          
+          <label>NOME</label>
+          <input type="text" id="name" />
+          <br/>
+          
+          <label>Idade</label>
+          <input type="number" id="idade" />
+          <br/>
+          
+          <label>Sexo</label>
+          <p>Masculino
+          <input type="radio" id="m" name="sexo" value="1" />
+          </p>
+          <p>Feminino 
+          <input type="radio" id="f" name="sexo" value="1" />
+          </p>
+          
+        </div>
+       
+        <div class="d2">
+          
+         <label>Seu pesso</label>
+       <input type="number" id="peso" />
+         <br>
+          <br>
+         <label>Sua altura</label>
+       <input type="number" id="altura" />
+          
+        </div>
+           </div>
+       
+         <div id="but">
+         <button onclick="calcular()">INSERIR</button>
+         <button onclick="limpar()" class="clear">Limpar</button>
+        </div>
+       
+         <div id="said">
+         <h3 id="sai3"></h3>
+         <h3 id="sai2"></h3>
+         <h3 id="sai"></h3>
+         </div>
+</body>
+</html>
